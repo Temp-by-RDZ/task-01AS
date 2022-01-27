@@ -7,6 +7,15 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/memoriable"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:ems="7" />
+        <!-- ems это размер содержимого сопоставимый с количеством букв m-->
+
     <CalendarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -14,8 +23,8 @@
         android:id="@+id/B_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
-        android:textSize="20sp"
+        android:text="@string/back"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
