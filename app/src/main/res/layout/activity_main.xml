@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,10 +17,6 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:fontFamily="cursive"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="TextView" />
 
     <ToggleButton
@@ -31,10 +26,6 @@
         android:layout_gravity="end"
         android:text="@string/premium"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="ToggleButton" />
 
     <EditText
@@ -42,10 +33,6 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="EditText" />
 
     <Switch
@@ -54,10 +41,6 @@
         android:layout_height="wrap_content"
         android:text="@string/safe_mode"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="Switch"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
@@ -67,10 +50,6 @@
         android:layout_height="wrap_content"
         android:text="@string/show_calendar"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="CheckBox" />
 
     <Button
@@ -79,10 +58,6 @@
         android:layout_height="wrap_content"
         android:text="@string/permit"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="Button" />
 
 </LinearLayout>
